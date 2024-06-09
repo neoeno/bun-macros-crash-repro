@@ -1,0 +1,19 @@
+{
+  "name": "macrosrepro",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "acorn": "^8.11.3",
+    "mdast-util-from-markdown": "^2.0.1",
+    "mdast-util-mdx-jsx": "^3.1.2",
+    "mdast-util-to-markdown": "^2.1.0",
+    "micromark-extension-mdx-jsx": "^3.0.0",
+    "react-markdown": "^9.0.1"
+  }
+}
